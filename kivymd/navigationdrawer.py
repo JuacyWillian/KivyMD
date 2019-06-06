@@ -106,6 +106,7 @@ from kivymd.vendor.navigationdrawer import NavigationDrawer as\
     VendorNavigationDrawer
 
 Builder.load_string('''
+#:import MDSeparator kivymd.cards.MDSeparator
 #:import OneLineIconListItem kivymd.list.OneLineIconListItem
 #:import MDLabel kivymd.label.MDLabel
 #:import colors kivymd.color_definitions.colors
